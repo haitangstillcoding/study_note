@@ -26,6 +26,6 @@ Tomcat 是一个轻量级的 Web 服务器，支持 Servlet/JSP 少量 JavaEE �
 
   修改启动端口号：conf/server.xml
 
-  ![]([study_note/Tomcat_port.png at main · haitangstillcoding/study_note (github.com)](https://github.com/haitangstillcoding/study_note/raw/main/image/JavaWeb/Tomcat_port.png))
+  ![](https://github.com/haitangstillcoding/study_note/raw/main/image/JavaWeb/Tomcat_port.png)
 
 - 启动可能出现的问题
