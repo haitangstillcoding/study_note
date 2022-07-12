@@ -58,11 +58,119 @@ C++语言是在C语言的基础上发展而来，它主要具有以下特点：
 
 ## 关键字
 
-C++ 系统中预定义的、在语言或编译系统的实现中具有特殊含义的单词：
+### C 语言
 
+- C 89关键字（32个）
 
+  数据类型和控制语句：
 
+  | 数据类型 |   简要说明   | 控制语句 |            简要说明             |
+  | :------: | :----------: | :------: | :-----------------------------: |
+  |   char   |    字符型    |   for    |            循环语句             |
+  |  short   |    短整型    |    do    | 循环语句的循环体（与while连用） |
+  |   int    |     整型     |  while   |       循环语句的循环条件        |
+  |   long   |    长整型    |    if    |          条件语句分支           |
+  |  float   | 单精度浮点型 |   else   |  条件语句否定分支（与if连用）   |
+  |  double  | 双精度浮点型 |  switch  |            判断语句             |
+  |  signed  |  有符号类型  |   case   |          判断语句分支           |
+  | unsigned |  无符号类型  | default  |      判断语句中的其他分支       |
+  |   enum   |   枚举类型   |  break   |          跳出当前循环           |
+  |  struct  |  结构体类型  | continue |  结束当前循环，开始下一轮循环   |
+  |  union   |  共用体类型  |   goto   |         无条件跳转语句          |
+  |   void   |    无类型    |  return  |            返回语句             |
 
+  存储类型和其他：
+
+  | 存储类型 |  简要说明  | 其他关键字 |              简要说明              |
+  | :------: | :--------: | :--------: | :--------------------------------: |
+  |   auto   |  自动变量  |   const    |             类型限定符             |
+  |  extern  |  外部变量  |   sizeof   |          计算数据类型长度          |
+  | register | 寄存器变量 |  typedef   |    为一种数据类型定义一个新名字    |
+  |  static  |  静态变量  |  volatile  | 说明变量在程序执行中可被隐含地改变 |
+
+- C 99关键字（5个）
+
+  |  数据类型  | 简要说明 | 其他关键字 | 简要说明 |
+  | :--------: | :------: | :--------: | :------: |
+  |   _Bool    | 布尔类型 |   inline   | 内联函数 |
+  |  _Complex  | 复数类型 |  restrict  | 限定指针 |
+  | _Imaginary | 虚数类型 |            |          |
+
+- C 11关键字（7个）
+
+  |     关键字     |            简要说明            |
+  | :------------: | :----------------------------: |
+  |    _Alignas    |         内存对齐操作符         |
+  |    _Alignof    |         对齐处理操作符         |
+  |    _Atomic     |            原子操作            |
+  |    _Generic    |            泛函机制            |
+  |   _Noreturn    |   修饰函数，绝对不会有返回值   |
+  | _Static_assert |            静态断言            |
+  | _Thread_local  | 限定了变量不能在多线程之间共享 |
+
+### C ++
+
+- C++ 98关键字
+
+  |      关键字      |         含义         |
+  | :--------------: | :------------------: |
+  |       asm        |    嵌入汇编 指令     |
+  |       auto       | 变量具有自动生命周期 |
+  |       bool       |                      |
+  |      break       |                      |
+  |       case       |                      |
+  |      catch       |                      |
+  |      class       |                      |
+  |      const       |                      |
+  |    const_cast    |                      |
+  |     continue     |                      |
+  |      delete      |                      |
+  |        do        |                      |
+  |      double      |                      |
+  |   dynamic_cast   |                      |
+  |       else       |                      |
+  |       enum       |                      |
+  |     explicit     |                      |
+  |      extern      |                      |
+  |      false       |                      |
+  |       for        |                      |
+  |      friend      |                      |
+  |       goto       |                      |
+  |        if        |                      |
+  |      inline      |                      |
+  |     mutable      |                      |
+  |    namespace     |                      |
+  |       new        |                      |
+  |     operator     |                      |
+  |     private      |                      |
+  |    protected     |                      |
+  |      public      |                      |
+  |     register     |                      |
+  | reinterpret_cast |                      |
+  |      return      |                      |
+  |      signed      |                      |
+  |      sizeof      |                      |
+  |      static      |                      |
+  |   static_cast    |                      |
+  |      struct      |                      |
+  |      switch      |                      |
+  |     template     |                      |
+  |       this       |                      |
+  |      throw       |                      |
+  |       true       |                      |
+  |       try        |                      |
+  |     typedef      |                      |
+  |      typeid      |                      |
+  |     typename     |                      |
+  |      union       |                      |
+  |     unsigned     |                      |
+  |      using       |                      |
+  |     virtual      |                      |
+  |      while       |                      |
+  |     volatile     |                      |
+  |     default      |                      |
+
+  
 
 ### typedef声明
 
