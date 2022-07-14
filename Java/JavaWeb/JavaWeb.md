@@ -26,7 +26,7 @@ Tomcat 是一个轻量级的 Web 服务器，支持 Servlet/JSP 少量 JavaEE �
 
   1. 修改启动端口号：修改 conf/server.xml 文件
 
-     ![](https://github.com/haitangstillcoding/study_note/raw/main/image/JavaWeb/Tomcat_port.png)
+     ![](images/Tomcat_port.png)
 
      > 注：HTTP协议默认端口号为80，如果将Tomcat端口号改为80，则将来访问Tomcat时，将不用输入端口号
 
