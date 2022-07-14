@@ -5,7 +5,7 @@ set /p message=Please input message:
 :: 添加
 git add .
 :: 提交
-git commit -m "%message%|%date_time%"
+git commit -m "%message% -- %date_time%"
 :: 推送到远程分支master
 git push origin main:main
 ::关闭cmd窗口
